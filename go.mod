@@ -1,10 +1,10 @@
-module github.com/rbcervilla/redisstore
+module github.com/Xytime/redisstore
 
-go 1.12
+go 1.11
 
 require (
-	github.com/go-redis/redis v6.15.5+incompatible
+	github.com/go-redis/redis/v7 v7.2.0
 	github.com/gorilla/sessions v1.2.0
-	github.com/onsi/ginkgo v1.10.1 // indirect
-	github.com/onsi/gomega v1.7.0 // indirect
+	github.com/onsi/ginkgo v1.10.1
+	github.com/onsi/gomega v1.7.0
 )
